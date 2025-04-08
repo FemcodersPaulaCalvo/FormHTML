@@ -16,6 +16,8 @@ Este es un proyecto sencillo en HTML que representa una **página de inicio de s
 
 > Página de log in con botones para autenticación social, separador visual y formulario clásico de acceso.
 
+![](assets/images/Captura.PNG)
+
 ---
 
 ## ✨ Funcionalidades
