@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="tittle">Log in</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2 id="textSingUp">
+          Don´t have an account?
+          <a id="linkSingUp" href="" target="_self">Sing Up</a>
+        </h2>
+        <span id="singUp">
+          <button id="buttonGoogle" type="button">
+            <img
+              id="imgGoogle"
+              src="assets/images/google_13170545.png"
+              alt="Logo Google"
+            />Sing in with Google
+          </button>
+          <button id="buttonFacebook" type="button">
+            <img
+              id="imgFacebook"
+              src="assets/images/facebook_5968764.png"
+              alt="Logo Facebook"
+            />
+          </button>
+        </span>
+
+        <span id="separator">
+          <hr class="separatorLine" />
+          <h2 id="textSeparator">or</h2>
+          <hr class="separatorLine" />
+        </span>
+
+        <span id="formLogIn">
+          <form action="#">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" />
+            <button type="submit">Log in</button>
+          </form>
+        </span>
+
+        <h2><a id="linkForgotPass" href="">Forgot password?</a></h2>
+      </section>
+    </main>
+  </body>
+</html>
