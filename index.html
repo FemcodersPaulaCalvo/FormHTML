@@ -6,17 +6,19 @@
     <title>Form HTML</title>
   </head>
   <body>
-    <header>
-      <h1 id="tittle">Log in</h1>
-    </header>
+    <div>
+      <form id="formLogIn" action="#">
+        <!-- Form title -->
+        <h1 id="tittle">Log in</h1>
 
-    <main>
-      <section>
+        <!-- Sing up part -->
         <h2 id="textSingUp">
           Don´t have an account?
           <a id="linkSingUp" href="" target="_self">Sing Up</a>
         </h2>
-        <span id="singUp">
+
+        <!-- Login part with buttons -->
+        <div>
           <button id="buttonGoogle" type="button">
             <img
               id="imgGoogle"
@@ -24,6 +26,7 @@
               alt="Logo Google"
             />Sing in with Google
           </button>
+
           <button id="buttonFacebook" type="button">
             <img
               id="imgFacebook"
@@ -31,26 +34,23 @@
               alt="Logo Facebook"
             />
           </button>
-        </span>
+        </div>
 
-        <span id="separator">
-          <hr class="separatorLine" />
-          <h2 id="textSeparator">or</h2>
-          <hr class="separatorLine" />
-        </span>
+        <!-- Part of the separators -->
+        <hr class="separatorLine" />
+        <h2 id="textSeparator">or</h2>
+        <hr class="separatorLine" />
 
-        <span id="formLogIn">
-          <form action="#">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" />
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" />
-            <button type="submit">Log in</button>
-          </form>
-        </span>
+        <!-- Login part with email and password -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <button type="submit">Log in</button>
 
+        <!-- Forgotten password link -->
         <h2><a id="linkForgotPass" href="">Forgot password?</a></h2>
-      </section>
-    </main>
+      </form>
+    </div>
   </body>
 </html>
